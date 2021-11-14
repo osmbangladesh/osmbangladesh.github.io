@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<h1>
+    {% case page.category %}
+    {% when 'motm' %}
+    <i class="fas fa-star"></i>
+    {% else %}
+    <i class="far fa-newspaper"></i>
+    {% endcase %}
+
+    {{ page.title }}
+</h1>
+<p class="text-info">
+    <strong class="post-date" datetime="{{ page.date }}">{{ page.date | date: "%d.%m.%Y" }}</strong>
+    -
+    <strong class="author">
+        <i class="fas fa-user"></i>
+        {{ page.author }}
+    </strong>
+</p>
+<hr>
+
+{% if page.featured %}
+<div class="text-center">
+    {% if page.category == 'motm' %}
+    {% assign yearmonth = page.date | date: '%Y/%m/' %}
+    <img src="{{ page.featured | prepend: yearmonth | prepend: 'assets/images/motm/' | relative_url }}" alt="{{ page.featured }}">
+    {% else %}
+    <img src="{{ page.featured | prepend: 'assets/images/post/' | relative_url }}" alt="{{ page.featured }}">
+    {% endif %}
+    {% if page.featured_caption %}
+    <div>
+        <em>{{ page.featured_caption }}</em>
+    </div>
+    {% endif %}
+</div>
+<hr>
+{% endif %}
+
+{{ page.content }}

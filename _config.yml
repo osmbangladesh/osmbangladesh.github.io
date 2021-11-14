@@ -1,0 +1,45 @@
+title: OpenStreetMap Belgium
+description: OpenStreetMap Belgium community website
+
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+twitter:
+  username: osm_be
+social:
+  name: OpenStreetMap Belgium
+  links:
+    - https://twitter.com/osm_be
+    - https://www.facebook.com/groups/1419016881706058/
+    - https://github.com/osmbe
+
+url: https://openstreetmap.be
+baseurl: ""
+
+exclude:
+  - INSTALL.md
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - .cache/
+  - _javascript/
+
+future: true
+permalink: /:categories/:year/:month/:day/:title:output_ext
+feed:
+  collections:
+    - events
+
+collections:
+  # category:
+  #   output: true
+  #   permalink: /:collection/:name:output_ext
+  events:
+    output: true
+  #   permalink: /:categories/:year/:month/:day/:title:output_ext

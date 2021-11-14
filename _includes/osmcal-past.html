@@ -1,0 +1,10 @@
+<div id="osmcal-past" data-in="Belgium" data-locales="{{ include.locales }}"></div>
+
+<script>
+    (function () {
+        const widget = new OSMCal.WidgetList(document.getElementById("osmcal-past"), {
+            past: true,
+        });
+        widget.display();
+    })();
+</script>

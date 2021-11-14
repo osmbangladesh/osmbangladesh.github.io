@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>
+    <i class="fas fa-rocket"></i>
+    {{ page.title }}
+</h2>
+
+{% if page.lead %}
+<p class="text-info">
+    <strong>
+        <i class="fas fa-user-astronaut"></i>
+        Project lead:
+    </strong>
+    {{ page.lead }}
+</p>
+{% endif %}
+<hr>
+
+{% if page.featured %}
+<div class="text-center">
+    <img src="{{ page.featured | prepend: '/assets/images/post/' | relative_url }}" alt="{{ page.featured }}">
+    {% if page.featured_caption %}
+    <em>{{ page.featured_caption }}</em>
+    {% endif %}
+</div>
+<hr>
+{% endif %}
+
+{{ content }}
