@@ -1,7 +1,5 @@
-_site/
-.cache/
-.sass-cache/
-node_modules/
-.env
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-desktop.ini
+vendor
