@@ -1,5 +1,5 @@
-title: OpenStreetMap Belgium
-description: OpenStreetMap Belgium community website
+title: OpenStreetMap Bangladesh
+description: OpenStreetMap Bangladesh community website
 
 markdown: kramdown
 sass:
@@ -11,15 +11,15 @@ plugins:
   - jekyll-sitemap
 
 twitter:
-  username: osm_be
+  username: osmbangladesh
 social:
-  name: OpenStreetMap Belgium
+  name: OpenStreetMap Bangladesh
   links:
     - https://twitter.com/osm_be
-    - https://www.facebook.com/groups/1419016881706058/
-    - https://github.com/osmbe
+    - https://www.facebook.com/groups/osmbd
+    - https://github.com/osmbangladesh
 
-url: https://openstreetmap.be
+url: https://osmbd.org
 baseurl: ""
 
 exclude:
