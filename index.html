@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>OpenStreetMap Belgium</title>
+    <title>OpenStreetMap Bangladesh</title>
     <style>
         html,
         body {
@@ -28,18 +28,15 @@
 
 <body class="d-flex align-items-center justify-content-center flex-column">
 
-    <img src="{{ site.baseurl }}/assets/images/logo.svg" style="height:200px;">
+    <img src="{{ site.baseurl }}/assets/images/osmbd.png" style="height:200px;">
 
     <div class="list-group text-center">
         <a href="{% link en/index.html %}" class="list-group-item list-group-item-action">
-            OpenStreetMap Belgium (English)
+            OpenStreetMap Bangladesh (English)
         </a>
-        <a href="{% link fr/index.html %}" class="list-group-item list-group-item-action">
+<!--         <a href="{% link fr/index.html %}" class="list-group-item list-group-item-action">
             OpenStreetMap Belgique (Français)
-        </a>
-        <a href="{% link nl/index.html %}" class="list-group-item list-group-item-action">
-            OpenStreetMap België (Nederlands)
-        </a>
+        </a> -->
     </div>
 
     <script>
@@ -48,8 +45,7 @@
 
             switch (language.slice(0, 2)) {
                 case "en": document.location.href = "{% link en/index.html %}"; break;
-                case "fr": document.location.href = "{% link fr/index.html %}"; break;
-                case "nl": document.location.href = "{% link nl/index.html %}"; break;
+                // case "fr": document.location.href = "{% link fr/index.html %}"; break;
             }
         })();
     </script>
