@@ -1,55 +1,58 @@
 html,
 body {
   font-family: 'Quicksand', serif;
-  font-size: 20px;
+  /*font-size: 20px;*/
   font-weight: 300;
-}
-
-html {
-  overflow-y: hidden !important;
   background-image: url('../media/background.png') !important;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
 }
 
-.hero.is-success {
-  background: #fff;
-}
-.hero .nav,
-.hero.is-success .nav {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.box {
-  margin-top: 5rem;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-input {
-  font-weight: 300;
-}
-p {
-  font-weight: 700;
-}
-p.subtitle {
-  padding-top: 1rem;
+
+.mapresi{
+  position: absolute;
+  bottom: 0;
+  padding-left: 50px;
+  /*margin-top: 200px;*/
+  
 }
 
-a {
-  color: red;
+
+
+a:link {
+  color: #000;
+  background-color: transparent;
+  text-decoration: none!important;
 }
+
+/*a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none!important;
+}*/
 
 a:hover {
-  color: #bababa;
+  color: red;
+  background-color: transparent;
+  text-decoration: none !important;
 }
 
-.languages {
-  margin-top: 10px;
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none !important;
 }
 
-.footer-text {
-  font-weight: initial;
+p{
+   font-size: 16px;
+}
+
+.futter{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
 }
