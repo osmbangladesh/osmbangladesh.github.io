@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Program</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <!-- <link rel="canonical" href="http://localhost:4000/ybs2023//program/"> -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon_32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/icon_96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icon_16.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Custom Fonts -->
+    <script src="./fonts/fontawesome-4c3446f59f.js"></script>
+    <link href="./fonts/Lora.css" rel="stylesheet" type="text/css">
+    <link href='./fonts/Varela_Round.css' rel='stylesheet' type='text/css'>
+    <link href='./fonts/Roboto.css' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+</head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+     <!-- jQuery Version 1.11.0 -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/grayscale.js"></script>
+     <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top    navbar-filter " role="navigation">
+        <div class="limiter">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars dark"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="../index.html">
+                 <span class="">YouthMappers Bangladesh Summit 2023</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll active" href="index.html">Program</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://forms.gle/F4fpWYJPxUn31Uhs5">Tickets</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll " href="../venue/index.html">Venue</a>
+                    </li>
+                       
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class='keyline-top pad8y fill-white program-page'>
+  <div class='limiter'>
+    <div class='pad4y col12 clearfix prose min-height'>
+      <div class='col12'>
+        <div class="">
+            <div class='pad4y col12 clearfix prose'>
+      <div class='col12 space-bottom4 contain'>
+
+        <div
+          id='program-intro'
+          class='col12 clearfix space-bottom4'>
+          <div class='col8'>
+            <h1 class="color-purple2 spartan">Overview</h1>
+
+            <p>YouthMappers Bangladesh Summit 2023 is taking place at <b>2nd December 2023</b> in Dhaka, Bangladesh. </p>
+<ul>
+
+          </div>
+        </div>
+        <h2>Saturday</h2>
+    <table class="scheduleTable">
+            <thead>
+                <tr class="fill-midnight">
+                    <td width="55px" style="text-align: center; center; color:#fff;">Time</td>
+                    <td width="22%"style="text-align: center; center; color:#fff;">Seminar Hall</td>
+                    <td width="22%"style="text-align: center; center; color:#fff;">Room 01</td>
+                    <td width="22%"style="text-align: center; center; color:#fff;">Room 02</td>
+                    <td width="22%"style="text-align: center; color:#fff;">Lobby</td>
+                                    </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="fill-darken0">08:00 - 09:00</td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0">Ki Collection</td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">09:00 - 09:15</td>
+                    <td>
+                      <span class="extraTag">Opening Speech</span>
+                      <span class="speaker">Sawan Shariar</span>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">09:15 - 09:25</td>
+                    <td class="fill-darken0">
+                      <span class="extraTag">YouthMappers Special Guest Speech</span>
+                   </td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">09:25 - 09:40</td>
+                    <td>
+                    <span class="extraTag">Inaugural Speech</span>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">09:40 - 09:55</td>
+                    <td class="fill-darken0">
+                    <span class="extraTag">Keynote Speech</span>
+                    </td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">09:55 - 10:20</td>
+                    <td colspan="4"style="text-align: center; center;">Group Photo (Field)</td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">10:20 - 11:00</td>
+                    <td class="fill-darken0">
+                      <span class="extraTag">Chapter Presentations</span>
+                      <span class="speaker">Eastern University</span>
+                      <span class="speaker">SUST</span>
+                      <span class="speaker">BSMRSTU</span>
+                      <span class="speaker">PSTU</span>
+                      <span class="speaker">Jahangirnagar University</span>
+                      <span class="speaker">BSMRMU</span>
+                    </td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0">Snacks Time</td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">11:05 - 11:55</td>
+                    <td>
+
+                      <span class="extraTag">Lightening talk</span>
+                      <!-- <a href="./2023/Zihanul Islam Zijan/">Zihanul Islam Zijan</a> -->
+                      <span class="speaker">Zihanul Islam Zijan</span>
+                      <span class="speaker">Khan Mohammad Ibtehal</span>
+                      <span class="speaker">Md. Faisal Hasan</span>
+                      <span class="speaker">MD. Fardin Hasan</span>
+                      <span class="speaker">Md. Aminul Islam</span>
+                      <span class="speaker">Md. Farabi Akash</span>
+                      <span class="speaker">Md. Nahid Ferdous</span>
+                      <span class="speaker">Gazi Saiful Islam</span>
+                    </td>
+                    <td>Workshop 01</td>
+                    <td>Workshop 02</td>
+                    <td rowspan="2">
+                      <span class="extraTag">OSM Idea Hunt & GISDay Poster Exhibition</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">12:05 - 12:55</td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0">Workshop 03</td>
+                    <td class="fill-darken0">Workshop 04</td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">13:00 - 13:55</td>
+                    <td colspan="4"style="text-align: center; center;">Lunch Break (Lobby)</td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">14:00 - 14:55</td>
+                    <td class="fill-darken0">Networking</td>
+                    <td class="fill-darken0">Workshop 05</td>
+                    <td class="fill-darken0">Workshop 06</td>
+                    <td class="fill-darken0"></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">15:00 - 15:55</td>
+                    <td>Networking</td>
+                    <td>Workshop 07</td>
+                    <td>Workshop 08</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">16:05 - 16:40</td>
+                    <td class="fill-darken0">Panel Discussion</td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td rowspan="2" class="fill-darken0">Snacks Time</td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">16:45 - 17:00</td>
+                    <td>
+                      <span class="extraTag">Keynote Speech</span>
+                      <span class="speaker">Pete Masters</span>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">17:00 - 17:20</td>
+                    <td class="fill-darken0">YouthMappers Special Guest Speech</td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                    <td class="fill-darken0"></td>
+                </tr>
+                <tr>
+                    <td class="fill-darken0">17:20 - 17:45</td>
+                    <td>Appreciation Giving</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <!-- <tr>
+                    <td class="fill-darken0">10:00</td>
+                                              <td rowspan="1" id="K001">
+        <span class="extraTag">keynote</span>
+        <a href="/2018/K001-OpenStreetMap_Now_and_into_the_Future/">OpenStreetMap—Now and into the Future</a>
+      <br>
+      <span class="speaker">Kate Chapman, Heather Leson
+                      </span>
+    </td>
+
+                                              <td>
+    </td>
+
+                                              <td>
+    </td>
+
+                                                        </tr> -->
+               <!--  <tr>
+                    <td class="fill-darken0">10:30</td>
+                                              <td rowspan="1" id="T079">
+        <a href="/2018/T079-Can_we_validate_every_change_on_OSM_/">Can we validate every change on OSM?</a>
+      <br>
+      <span class="speaker">Lukas Martinelli
+                  (Mapbox)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T092">
+        <a href="/2018/T092-Making_Maps_Without_Database/">Making Maps Without Database</a>
+      <br>
+      <span class="speaker">Thomas Skowron
+                      </span>
+    </td>
+
+                                              <td>
+    </td>
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">11:00</td>
+                    <td colspan="3" class="fill-darken0 scheduleBreak">Break</td>
+                                    </tr>
+                <tr>
+                    <td class="fill-darken0">11:30</td>
+                                              <td rowspan="1" id="T076">
+        <a href="/2018/T076-Interpreting_Imagery_for_OpenStreetMap/">Interpreting Imagery for OpenStreetMap</a>
+      <br>
+      <span class="speaker">Chad Blevins
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T065">
+        <a href="/2018/T065-OpenMapTiles__Vector_tiles_from_OpenStreetMap/">OpenMapTiles: Vector tiles from OpenStreetMap</a>
+      <br>
+      <span class="speaker">Petr Pridal, Jiri Komarek
+                  (Klokan Technologies)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T023">
+        <a href="/2018/T023-Qt_to_create_OSM-based_apps/">Qt to create OSM-based apps</a>
+      <br>
+      <span class="speaker">Paolo Angelelli
+                  (The Qt Company)
+                      </span>
+    </td>
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">12:00</td>
+                                              <td rowspan="1" id="T017">
+        <a href="/2018/T017-Advertising_mapping___using_OpenStreepMap_for_the_protection_of_landscape_/">Advertising mapping : using OpenStreepMap for the protection of landscape </a>
+      <br>
+      <span class="speaker">Paul Desgranges
+                  (Grenoble (France) group of OSM contributors)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T115">
+        <a href="/2018/T115-Large_Scale_Deep_Learning_for_Map_Making/">Large Scale Deep Learning for Map Making</a>
+      <br>
+      <span class="speaker">Alina Negreanu and Bogdan Gliga
+                  (Telenav)
+                      </span>
+    </td>
+
+                                              <td rowspan="2" id="W033">
+        <span class="extraTag">workshop</span>
+        <a href="/2018/W033-Field_Mapping_tools___technologies/">Field Mapping tools &amp; technologies</a>
+      <br>
+      <span class="speaker">Paul Uithol
+                  (Humanitarian OpenStreetMap Team)
+                      </span>
+    </td>
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">12:30</td>
+                                              <td rowspan="1" id="T061">
+        <a href="/2018/T061-An_excursion_in_to_the_world_of_OSM_tagging_presets/">An excursion in to the world of OSM tagging presets</a>
+      <br>
+      <span class="speaker">Simon Poole
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T068">
+        <a href="/2018/T068-How_Deep_Learning_could_help_to_improve_OSM_Data_Quality__/">How Deep Learning could help to improve OSM Data Quality ?</a>
+      <br>
+      <span class="speaker">Olivier Courtin
+                  (DataPink)
+                      </span>
+    </td>
+
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">13:00</td>
+                    <td colspan="3" class="fill-darken0 scheduleBreak">Lunch</td>
+                                    </tr>
+                <tr>
+                    <td class="fill-darken0">14:00</td>
+                    <td colspan="3" class="fill-darken0 scheduleBreak">Photo</td>
+                                    </tr>
+                <tr>
+                    <td class="fill-darken0">14:10</td>
+                                              <td rowspan="1" id="T094">
+        <a href="/2018/T094-Addressing_addresses/">Addressing addresses</a>
+      <br>
+      <span class="speaker">Sarah Hoffmann
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T093">
+        <a href="/2018/T093-The_Belgian_perspective_to_building_OpenStreetMap_community/">The Belgian perspective to building OpenStreetMap community</a>
+      <br>
+      <span class="speaker">Ben Abelshausen, Joost Schouppe
+                  (OpenStreetMap Belgium)
+                      </span>
+    </td>
+
+                                              <td id="lightning_talks_1">
+  <a href="/lightning_talks/lightning_talks_1/">Lightning Talks 1</a>
+    </td>
+
+
+
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">14:40</td>
+                                              <td rowspan="1" id="T128">
+        <a href="/2018/T128-2__4__6__8__Here_s_How_We_Interpolate/">2, 4, 6, 8, Here&#39;s How We Interpolate</a>
+      <br>
+      <span class="speaker">Julian Simioni
+                  (geocode.earth)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T135">
+        <a href="/2018/T135-A_new_approach_to_garner_prolific_contribution_in_OpenStreetMap/">A new approach to garner prolific contribution in OpenStreetMap</a>
+      <br>
+      <span class="speaker">Kshitiz Khanal
+                  (Kathmandu Living Labs,)
+                      </span>
+    </td>
+
+                                              <td rowspan="2" id="W016">
+        <span class="extraTag">workshop</span>
+        <a href="/2018/W016-The_LWG_Presents__GDPR_Implementation_for_OSM/">The LWG Presents: GDPR Implementation for OSM</a>
+      <br>
+      <span class="speaker">Kathleen Lu
+                  (Legal/Licensing Working Group)
+                      </span>
+    </td>
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">15:10</td>
+                                              <td rowspan="1" id="T058">
+        <a href="/2018/T058-OsmAnd_making_live_maps_update/">OsmAnd making live maps update</a>
+      <br>
+      <span class="speaker">Victor Shcherb
+                  (OsmAnd)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T132">
+        <a href="/2018/T132-Building_up_the_Microsoft_Open_Maps_Team/">Building up the Microsoft Open Maps Team</a>
+      <br>
+      <span class="speaker">Oisin Herriott
+                  (Microsoft)
+                      </span>
+    </td>
+
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">15:40</td>
+                    <td colspan="3" class="fill-darken0 scheduleBreak">Break</td>
+                                    </tr>
+                <tr>
+                    <td class="fill-darken0">16:10</td>
+                                              <td rowspan="1" id="T121">
+        <a href="/2018/T121-Lies__damned_lies__and_OSM_statistics/">Lies, damned lies, and OSM statistics</a>
+      <br>
+      <span class="speaker">Frederik Ramm
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T114">
+        <a href="/2018/T114-Verifying_Our_Edits/">Verifying Our Edits</a>
+      <br>
+      <span class="speaker">Bogdan Petrea and Armin Gheorghina
+                  (Telenav)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T087">
+        <a href="/2018/T087-Corporate_Cartography__How_the_sausage_gets_made/">Corporate Cartography: How the sausage gets made</a>
+      <br>
+      <span class="speaker">Paul Norman
+                      </span>
+    </td>
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">16:40</td>
+                                              <td rowspan="1" id="T063">
+        <a href="/2018/T063-An_innovative_approach_to_support_OSM_data_generation_/">An innovative approach to support OSM data generation </a>
+      <br>
+      <span class="speaker">Emanuela Mihut
+                  (Phd Student (West University of Timisoara, Romania))
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T104">
+        <a href="/2018/T104-Mapping_Competition_with_Focus_on_Quality__Lesson_Learned/">Mapping Competition with Focus on Quality: Lesson Learned</a>
+      <br>
+      <span class="speaker">Yantisa Akhadi
+                  (Humanitarian OpenStreetMap Team)
+                      </span>
+    </td>
+
+                                              <td rowspan="2" id="W009">
+        <span class="extraTag">workshop</span>
+        <a href="/2018/W009-Open_Gender_Monologues/">Open Gender Monologues</a>
+      <br>
+      <span class="speaker">Heather Leson
+                      </span>
+    </td>
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">17:10</td>
+                                              <td rowspan="1" id="T127">
+        <a href="/2018/T127-Pinpointing_the_power_grid/">Pinpointing the power grid</a>
+      <br>
+      <span class="speaker">Sajjad Anwar
+                  (Development Seed)
+                      </span>
+    </td>
+
+                                              <td rowspan="1" id="T077">
+        <a href="/2018/T077-Improving_OSMCha_for_the_community/">Improving OSMCha for the community</a>
+      <br>
+      <span class="speaker">Wille Marcel Lima Malheiro
+                      </span>
+    </td>
+
+
+                                                        </tr>
+                <tr>
+                    <td class="fill-darken0">17:40</td>
+                    <td><a href="/2018/X005-Get_involved_in_the_OpenStreetMap_Foundation/">Get involved in the OpenStreetMap Foundation</a><br>until 18:30<br><span class="speaker">Gregory Marler and the OSMF Working Groups</span></td>
+                    <td></td>
+                    <td></td>
+                                    </tr>
+                <tr>
+                    <td class="fill-darken0"></td>
+                    <td colspan="3"></td>
+                                    </tr> -->
+                <tr>
+                    <td class="fill-darken0">17:45 - 18:00</td>
+                    <td class="fill-darken0" colspan="4">Clossing</td>
+
+                </tr>              
+        </tbody>
+    </table>
+
+      
+
+      </div>
+
+      </div>
+
+<script src='/js/jquery.js'></script>
+<script src='/program/affix.js'></script>
+<script src='/program/program.js'></script>
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <!-- Footer -->
+    <footer class="fill-midnight dark contain" id="footer">
+		<div class="limiter">
+		      <div class="pad2y clearfix">
+		        <div class="space-bottom1 col12  clearfix footer-links">
+		          <div class="col3 pad4x hide-mobile">
+                            <img src="../img/logo-foot.png" width="98" height="170">
+		          </div>
+		          <nav class="col3 pad2">
+		            <a href="/ybs2023//program/" class="animate quiet block">Program</a>
+                    <a href="https://forms.gle/F4fpWYJPxUn31Uhs5" class="animate quiet block">Tickets</a>
+		            <a href="/ybs2023//venue/" class="animate quiet block">Venue</a>
+		          </nav>
+		          <nav class="col3 pad2">
+		            <a href="https://www.facebook.com/groups/2923232317707849" class="animate quiet block"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+		            <a href="https://www.facebook.com/groups/2923232317707849" class="animate quiet block"><img src="logos/ym_bd.png"></a>
+		          </nav>
+		          <nav class="col3 pad2">
+		          	<h6>YouthMappers Bangladesh Community</h6>
+		            <img src="img/all_logo.png">
+		          </nav>
+		        </div>
+		      </div>
+		          <div class="center">
+     				   <p class="small quiet">Copyright &copy;  2023 - <a href="mailto:info.ymbd@gmail.com" class="animate quiet"><i class="fa fa-envelope-o" aria-hidden="true"></i> info.ymbd@gmail.com</a></p>
+   				</div>
+		    </div>
+    </footer>
+
+
+    </body>
+</html>

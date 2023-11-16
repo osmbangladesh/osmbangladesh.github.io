@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YouthMappers Bangladesh Summit 2023</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <!-- <link rel="canonical" href="http://localhost:4000/ybs2023//"> -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icon_32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/icon_96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icon_16.png">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Fonts -->
+    <script src="/fonts/fontawesome-4c3446f59f.js"></script>
+    <link href="/fonts/Lora.css" rel="stylesheet" type="text/css">
+    <link href='/fonts/Varela_Round.css' rel='stylesheet' type='text/css'>
+    <link href='/fonts/Roboto.css' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+</head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+     <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+     <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top   " role="navigation">
+        <div class="limiter">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars dark"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                 <span class="">YouthMappers Bangladesh Summit 2023</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll " href="program/index.html">Program</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://forms.gle/F4fpWYJPxUn31Uhs5">Tickets</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll " href="venue/index.html">Venue</a>
+                    </li>
+                       
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+        <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="limiter">
+                <div class="center">
+                    <div class="col12">
+                        <div class="col4 margin4 margin4r">
+                            <div class="aizu-logo" style="float: right;">
+                             <img src="img/logo-hori.png" height="985" width="1517"/>
+                            </div>
+                        <a href="#thanks" class="btn btn-circle page-scroll">
+                            <i class="icon big down animated"></i>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section id="twitter" class="fill-light center">
+  <div class="limiter pad8y clearfix">
+    <div class="col8 margin2 margin2r">
+      <p class="dark varela">
+        <a class="twitter-timeline" data-height="1000" href="https://twitter.com/sshariar1991">Tweets by @Sawan Shariar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="fill-midnight pad8y contain dark keyline-top keyline-bottom">
+        <div class="limiter clearfix">
+        <!-- <div class=" col10 margin1 margin1r">
+           <div class="col12 clearfix space-bottom2 keyline-bottom-thick contain pad4y">
+ -->            <!-- "Thanks for coming" section -->
+            
+            <!-- <div class="col11 margin1r space-bottom2">
+                <h1 class="space-bottom2">Thanks for coming <span class="icon heart big icon-pink"></span></h1>
+                <a href="https://www.facebook.com/photo.php?fbid=10213784000100518"><img src="./img/group-photo.jpg" width="560" height="320" title="Group photo" class="center clearfix" ></a>
+                <h2>State of the Map is the annual event for <span>all mappers and OpenStreetMap users</span>. This year we enjoyed three days in central Japan with talks, discussions, workshops, code and documentation sprints all around the free and open map of the world.</h2>
+            </div>
+            
+           </div> -->
+           <div class="col12 clearfix contain pad4y">
+            <div class="col5  pad0y space-bottom2">
+                <h3 class="small-title uppercase">when?</h3>
+                <p class="varela">December 02, 2023</p>
+            </div>
+            <div class="col7  pad0y space-bottom2">
+                <h3 class="small-title uppercase">Where?</h3>
+                <p class="varela">Eastern University &dash; Road 6, Block B, Ashulia Model Town, Savar, Dhaka-1345, Bangladesh.</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!-- <section id="thanks" class="fill-light center">
+  <div class="limiter pad8y clearfix">
+    <div class="col8 margin2 margin2r">
+      <h1 class="center space-bottom4 dark">What's Going On!</h1>
+
+      <p class="dark varela"><a href="https://forms.gle/TYiqoiB4SVgpPZue9">  <img src="img/cop.jpg"> </a></p>
+      <p class="dark varela"><a href="https://www.facebook.com/photo/?fbid=6773030919430105&set=gm.7123747404322965&idorvanity=2923232317707849">  <img src="img/po.jpg"> </a></p>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section id="videos" class="fill-light center">
+  <div class="limiter pad8y clearfix">
+    <div class="col8 margin2 margin2r">
+      <p class="dark varela">Unedited video from the two main conference rooms:</p>
+
+      <p class="dark varela">Day 1 (Fri): &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=e7VosnqXjBY">De Donato</a> &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=Cr9XTtwuvjg">S.0.2.</a></li></p>
+      <p class="dark varela">Day 2 (Sat): &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=Jn5VWd7C6_g">De Donato</a> &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=V7t9xM1rOXA">S.0.2.</a></li></p>
+      <p class="dark varela">Day 3 (Sun): &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=hUkE_fHEoZ8">De Donato</a> &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=q602O9VGy3A">S.0.2.</a></li></p>
+
+      <p class="dark varela">We hope to bring you edited seperate session videos soon.</p>
+      
+    </div>
+  </div>
+</section>
+ -->
+<!-- <section class="fill-purple  center" id="newsletter">
+	<div class="limiter pad8y"> -->
+
+<!-- Begin MailChimp Signup Form -->
+<!-- <div id="mc_embed_signup pad4y">
+<form action="//stateofthemap.us12.list-manage.com/subscribe/post?u=35fbd52db2e057225b26d989c&amp;id=b9e7347b14" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <i class="fa fa-2x fa-fw fa-newspaper-o dark"></i>
+	<h2 class="dark">Sign up for event updates</h2>
+	<p class="varela col8 margin2 quiet space-top1 pad4x">By registering in the newsletter you will be able to get future State of the Map information quickly.</p>
+
+<div class="mc-field-group clearfix pad2y space-top2">
+	<fieldset class="clearfix input-pill col8 margin2 margin2r pill with-icon space-bottom2">
+	 	 <span class="icon mail quiet"></span>
+		<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email address" class="col9 required studio-signup dot-field required email">
+		<input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe"  class="col3 button fill-midnight dot-button">
+	</fieldset>
+</div>
+
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div> -->    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+    <!-- <div style="position: absolute; left: -5000px;"><input type="text" name="b_35fbd52db2e057225b26d989c_b9e7347b14" tabindex="-1" value=""></div>
+    <div class="clear"></div>
+    </div> -->
+
+
+
+<!-- </form>
+</div>
+ -->
+<!--End mc_embed_signup-->
+
+<!-- 	</div>
+</section> -->
+    <!-- Map Section -->
+ <section id="map-container">
+ <div id="map"></div>
+ </section>
+<script>
+    const map = L.map('map').setView([23.8664,90.3145], 15);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    const LeafIcon = L.Icon.extend({
+        options: {
+            shadowUrl: 'img/marker_shadows.png',
+            iconSize:     [35, 70],
+            shadowSize:   [50, 64],
+            iconAnchor:   [22, 94],
+            shadowAnchor: [9, 83],
+            popupAnchor:  [-3, -76]
+        }
+    });
+
+    const greenIcon = new LeafIcon({iconUrl: 'img/marker.png'});
+
+    const mGreen = L.marker([23.86635, 90.31427], {icon: greenIcon}).bindPopup('Eastern University').addTo(map);
+    
+
+</script>
+ 
+
+<section class="fill-light contain center" id="sponsors">
+    <div class="limiter pad4y clearfix">
+        <div class="col12 sponsors-keyline-bottom space-bottom4 contain center pad4y quiet">
+            <h2 class="space-bottom1">Thanks to our partner</h2>
+        </div>
+
+        <h3 class="small-title pink-text uppercase gold_sponsors">Organising Partner and Sponsor</h3>
+        <div class="clearfix space-top2 space-bottom2 contain center">
+            <a href="https://www.youthmappers.org/" class="col2 sponsor" style="height: 120px; width: 300px"><img src="logos/ym.png"></a>
+          <a href="https://boiledbhoot.org/" class="col2 sponsor" style="height: 120px; width: 300px"><img src="logos/boil.png"></a>
+            <!--  <a href="https://facebook.com/" class="col2 pad2 space-bottom2 sponsor"><img src="/logos/facebook.png"></a>
+            <a href="https://www.mapbox.com/" class="col2 pad2 space-bottom2 sponsor"><img src="/logos/mapbox.png"></a> -->
+        </div>
+
+        <h3 class="smaller-title uppercase silver_sponsors">Co-Partners</h3>
+        <div class="clearfix space-top2 space-bottom4 contain center">
+            <div class="clearfix">
+                <a href="https://osmbd.org/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/osmbd.png"></a>
+                <a href="https://www.easternuni.edu.bd/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/euc.png"></a>
+                <a href="https://www.facebook.com/youthmapperseu/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/ymeu.png"></a>
+                <a href="https://www.facebook.com/PSTUYouthMappers" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/ymp.png"></a>
+                <a href="https://www.facebook.com/groups/294041559380133/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/jkkniu.png"></a>
+                <a href="https://www.facebook.com/groups/221779560428131/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/ymru.png"></a>
+            </div>
+        </div>
+
+        <h3 class="smaller-title uppercase bronze_sponsors">Technical Partner</h3>
+        <div class="clearfix space-top2 space-bottom2 ">
+            <div class="clearfix">
+                <a href="https://mapbd.github.io/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="logos/mapbd.png"></a>
+                <!-- <a href="http://www.kaartgroup.com/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="/logos/kaart.png"></a>
+                <a href="http://www.mapillary.com/" class="col2  pad1 margin0r  space-bottom2 sponsor"><img src="/logos/mapillary.png"></a>
+                <a href="http://maps.me/en/home" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="/logos/mapme.png"></a>
+                <a href="https://osmand.net/" class="col2 pad1 margin0r space-bottom2 sponsor"><img src="/logos/osmand.png"></a> -->
+            </div>
+        </div>
+
+<!--
+        <div class="space-bottom4 quiet">
+            <h4 class="uppercase space-bottom1 space-top4">Supporter</h4>
+            <a href="https://georepublic.info/ja/" class="space-right2">Georepublic Japan</a>
+            <a href="http://mierune.co.jp/" class="space-right2">MIERUNE</a>
+            <a href="http://code4japan.org/" class="space-right2">Code for Japan</a>
+            <a href="http://www.3bit.co.jp/" class="space-right2">Sunbit System Co.,Ltd.</a>
+            <a href="http://thedesignium.com/" class="space-right2">TheDesignium Inc.</a>
+        </div>
+-->
+
+<!--
+    <div class="limiter pad8y clearfix center">
+
+    <h2 class="space-bottom2">Interested in sponsoring? </h2>
+    <p class="varela col8 margin2 quiet pad4x space-bottom4">Download <a href="Sponsorship2018v2b.pdf">the sponsorship package</a> and email us at <a href="mailto:sponsors@stateofthemap.org">sponsors@stateofthemap.org</a> for more information.</p>
+-->
+</section>
+
+
+
+        <!-- Footer -->
+    <footer class="fill-midnight dark contain" id="footer">
+		<div class="limiter">
+		      <div class="pad2y clearfix">
+		        <div class="space-bottom1 col12  clearfix footer-links">
+		          <div class="col3 pad4x hide-mobile">
+                            <img src="img/logo-foot.png" width="98" height="170">
+		          </div>
+		          <nav class="col3 pad2">
+		            <a href="/ybs2023//program/" class="animate quiet block">Program</a>
+                    <a href="https://forms.gle/F4fpWYJPxUn31Uhs5" class="animate quiet block">Tickets</a>
+		            <a href="/ybs2023//venue/" class="animate quiet block">Venue</a>
+		          </nav>
+		          <nav class="col3 pad2">
+		            <a href="https://www.facebook.com/groups/2923232317707849" class="animate quiet block"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+		            <a href="https://www.facebook.com/groups/2923232317707849" class="animate quiet block"><img src="logos/ym_bd.png"></a>
+		          </nav>
+		          <nav class="col3 pad2">
+		          	<h6>YouthMappers Bangladesh Community</h6>
+		            <img src="img/all_logo.png">
+		          </nav>
+		        </div>
+		      </div>
+		          <div class="center">
+     				   <p class="small quiet">Copyright &copy;  2023 - <a href="mailto:info.ymbd@gmail.com" class="animate quiet"><i class="fa fa-envelope-o" aria-hidden="true"></i> info.ymbd@gmail.com</a></p>
+   				</div>
+		    </div>
+    </footer>
+
+
+    </body>
+</html>
