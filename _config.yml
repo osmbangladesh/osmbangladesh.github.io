@@ -3,7 +3,7 @@ lang: en
 title: OSM Bangladesh
 tagline: Bulma Clean Theme
 email: your-email@domain.com
-description: >
+description:
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
 baseurl: ""
 url: "https://osmbangladesh.github.io"
@@ -15,9 +15,6 @@ gh_sponsor: chrisrhymes
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
-
-# With GitHub Pages Gem
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 paginate: 5
 paginate_path: "/blog/page:num"
