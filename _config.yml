@@ -2,11 +2,11 @@
 lang: en
 title: OSM Bangladesh
 tagline: Bulma Clean Theme
-email: your-email@domain.com
+email:
 description:
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: ""
-url: "https://osmbangladesh.github.io"
+baseurl: "https://osmbangladesh.github.io"
+url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
 gh_sponsor: chrisrhymes
@@ -51,7 +51,7 @@ livereload: true
 
 sass:
   style: compressed
-  source_dir: _sass
+ # source_dir: _sass
   # load_paths:
     # - node_modules
 
@@ -83,9 +83,9 @@ footer_menu: example_footer_menu
 collections:
   products:
     output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+   # layout: product
+   # image: https://via.placeholder.com/800x600
+   # show_sidebar: false
 
 social:
   facebook: https://www.facebook.com/
